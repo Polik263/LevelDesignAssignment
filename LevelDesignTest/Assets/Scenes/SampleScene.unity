@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 1105739105}
   - component: {fileID: 1105739104}
   - component: {fileID: 1105739103}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eed506ead8a40964da923327d4a73ba0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpKey: 32
   moveSpeed: 7
+  playerHeight: 2
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 8
+  groundDrag: 5
+  grounded: 0
+  jumpForce: 6
+  jumpCooldown: 0.25
+  airMultiplier: 1
+  readyToJump: 0
   oreintation: {fileID: 754229744}
 --- !u!1 &1993648892
 GameObject:
